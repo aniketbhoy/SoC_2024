@@ -1,0 +1,25 @@
+What I have learned:
+
+1. Using 3 fully connected layers improved the model.
+
+2. After training for 5 epochs, train accuracy = 90.86% and test accuracy = 88.99%.       Training time = 3.85 minutes
+   Using regularization dropout layer (p=0.15) and weight_decay = 1e-4, train accuracy =       89.47% and test accuracy = 88.05%. Training time = 4.94 minutes
+
+3. Padding
+
+4. Regularization like dropout and weight decay
+
+5. pytorch libraries
+
+6. Create CNN model using pytorch
+
+7. After training for 10 epochs, train accuracy = 92.90% and test accuracy = 90.42%. Training time = 8.19 minutes
+   Using regularization dropout layer (p=0.15) and weight_decay = 1e-4, train accuracy = 90.91% and test accuracy = 87.9%. Training time = 10.26. minutes
+
+
+Problems:
+1. Had trouble understanding the dimension of convolution and pooling layers, documentation and some yt tutorial videos were helpful.
+
+2. Model didn't converge after 5 epochs so had to increase epochs.
+
+
